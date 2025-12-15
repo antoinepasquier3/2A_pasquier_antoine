@@ -11,13 +11,7 @@
             <item algoitem="VARIABLES_FONCTION" code="202#declarationsvariablesfonction">
                 <item algoitem="so EST_DU_TYPE NOMBRE" code="1#NOMBRE#so"/>
                 <item algoitem="j EST_DU_TYPE NOMBRE" code="1#NOMBRE#j"/>
-            </item>
-            <item algoitem="DEBUT_FONCTION" code="203#debutfonction"/>
-            <item algoitem="so PREND_LA_VALEUR 0" code="5#so#0#pasliste"/>
-            <item algoitem="POUR j ALLANT_DE 1 A taille" code="12#j#1#taille">
-                <item algoitem="DEBUT_POUR" code="13#debutpour"/>
-                <item algoitem="so PREND_LA_VALEUR so+Ta[j]" code="5#so#so+Ta[j]#pasliste"/>
-                <item algoitem="FIN_POUR" code="14#finpour"/>
+            
             </item>
             <item algoitem="RENVOYER so" code="205#so"/>
             <item algoitem="FIN_FONCTION" code="204#finfonction"/>
