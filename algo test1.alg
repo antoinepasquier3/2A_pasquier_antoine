@@ -29,17 +29,4 @@
         <item algoitem="n EST_DU_TYPE NOMBRE" code="1#NOMBRE#n"/>
         <item algoitem="c EST_DU_TYPE NOMBRE" code="1#NOMBRE#c"/>
     </item>
-    <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
-        <item algoitem="AFFICHER &quot;La taille du tableau ?&quot;" code="4#La taille du tableau ?#1"/>
-        <item algoitem="LIRE n" code="2#n#pasliste"/>
-        <item algoitem="POUR c ALLANT_DE 1 A n" code="12#c#1#n">
-            <item algoitem="DEBUT_POUR" code="13#debutpour"/>
-            <item algoitem="LIRE tab[c]" code="2#tab#c"/>
-            <item algoitem="FIN_POUR" code="14#finpour"/>
-        </item>
-        <item algoitem="somme PREND_LA_VALEUR sommeTab(tab,n)" code="5#somme#sommeTab(tab,n)#pasliste"/>
-        <item algoitem="AFFICHER &quot;la somme des valeurs est:&quot;" code="4#la somme des valeurs est:#1"/>
-        <item algoitem="AFFICHER somme" code="3#somme#0#pasliste"/>
-    </item>
-    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
-</Algo>
+   
